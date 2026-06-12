@@ -46,7 +46,7 @@ jobs:
         env:
           FLET_CLI_NO_RICH_OUTPUT: 1
         run: |
-          flet build apk
+          flet build apk --yes
 
       # 7. Upload the compiled .apk file as a GitHub artifact
       - name: Upload APK Artifact
